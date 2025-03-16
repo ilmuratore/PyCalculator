@@ -1,0 +1,4 @@
+python-cors
+unittest
+fastapi
+uvicorn
