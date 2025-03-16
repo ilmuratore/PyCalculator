@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from typing import Union
-from .calculator_logic import add, subtract, multiply, divide 
+from backend.logic import add, subtract, multiply, divide
 
 app = FastAPI()
 
